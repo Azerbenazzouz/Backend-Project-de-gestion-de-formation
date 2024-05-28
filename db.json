@@ -1,0 +1,313 @@
+{
+  "users": [
+    {
+      "email": "benazzouzazer@gmail.com",
+      "password": "$2a$10$uyFsPcO6dU9PtqJMMvW3dOu50QgNJvy3Tb/WvojVXOvZiQb6L2raW",
+      "name": "Azer Ben Azzouz",
+      "cin": "14668040",
+      "telephone": "56793609",
+      "role": "candidat",
+      "id": 1
+    },
+    {
+      "email": "amenhentati@gmail.com",
+      "password": "$2a$10$wU9agjEpxC/9Yy/tkGm.COzFtt0v/FAd.FpCdKw12Zb.FMxpvTfzW",
+      "name": "Amen hentati",
+      "cin": "14141414",
+      "telephone": "20725325",
+      "role": "candidat",
+      "id": 2
+    },
+    {
+      "email": "aminebjaoui@gmail.com",
+      "password": "$2a$10$/bypbcpmb3RCHFWt/fY/5.QwvAEAilj9YabVh3pEi08qMQPUvYYlu",
+      "name": "Amine Bjaoui",
+      "cin": "01141414",
+      "telephone": "94077988",
+      "role": "candidat",
+      "id": 3
+    },
+    {
+      "email": "mehdi.mtir@gmail.com",
+      "password": "$2a$10$AqFkayoKYiJ8fgxW5ftTCelfwLDm/Qh5fQOq6cfiZw1e2WWvu7pt2",
+      "name": "Mehdi Mtir",
+      "cin": "01114415",
+      "telephone": "55445544",
+      "role": "formateur",
+      "id": 4
+    },
+    {
+      "email": "elon.musk@gmail.com",
+      "password": "$2a$10$EPHeN/9rjvlr46mC6ow9Begg0TUHi88cYM59x.QlirzpqDV9hKmvG",
+      "name": "Elon musk",
+      "cin": "01586987",
+      "telephone": "56893584",
+      "role": "formateur",
+      "id": 5
+    },
+    {
+      "email": "lewis.hamilton@gmail.com",
+      "password": "$2a$10$xGVFbYXKXwJ7vFjwnNKY.OkPOR5rvLeZXpag5P0HNmKnVnM6UUCja",
+      "name": "lewis hamilton",
+      "cin": "44444444",
+      "telephone": "44444444",
+      "role": "formateur",
+      "id": 6
+    },
+    {
+      "email": "sebastian.vettel@gmail.com",
+      "password": "$2a$10$ENM6yoi9N/jhc9q9IQN9qewSWw97HzwywlvI3Q5h0Vjw6WdXHNtA2",
+      "name": "sebastian vettel",
+      "cin": "55555555",
+      "telephone": "55555555",
+      "role": "formateur",
+      "id": 7
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$00T7i6Jv1LzcDv.U7tkQnOZlPxuOwh2kUYS4Azrv79gJX6Hjay8XW",
+      "name": "test",
+      "cin": "02025256",
+      "telephone": "56565656",
+      "role": "formateur",
+      "id": 8
+    }
+  ],
+  "formation": [
+    {
+      "title": "Drive Like Lewis Hamilton",
+      "date": "2024-01-07",
+      "hours": 4,
+      "difficulty": "advanced",
+      "idFormateur": [
+        0,
+        6
+      ],
+      "idCondidat": [
+        1
+      ],
+      "image": "https://th.bing.com/th/id/R.497c16f76258ef943558a7c53b1ce05e?rik=h6UdZ5MvNNcVQw&pid=ImgRaw&r=0",
+      "program": "https://th.bing.com/th/id/R.497c16f76258ef943558a7c53b1ce05e?rik=h6UdZ5MvNNcVQw&pid=ImgRaw&r=0",
+      "tags": [
+        "formula 1",
+        "    Championnat du monde"
+      ],
+      "categories": [
+        "formula 1"
+      ],
+      "description": "To drive like Lewis Hamilton, prioritize fitness, mental resilience, diverse practice, simulator training, car tech understanding, effective communication, media presence, ethical driving, and continuous improvement.",
+      "id": 1
+    },
+    {
+      "title": "How to start formula 1 careers",
+      "date": "2024-01-21",
+      "hours": 3,
+      "difficulty": "intermediate",
+      "idFormateur": [
+        6,
+        7
+      ],
+      "idCondidat": [
+        1
+      ],
+      "image": "https://th.bing.com/th/id/OIP.s9HEPP_gsUWWbLp-izdaegHaEK?rs=1&pid=ImgDetMain",
+      "program": "https://th.bing.com/th/id/OIP.s9HEPP_gsUWWbLp-izdaegHaEK?rs=1&pid=ImgDetMain",
+      "tags": [
+        "formula 1"
+      ],
+      "categories": [
+        "formula 1"
+      ],
+      "description": "Start in lower-tier racing, network, stay fit, secure sponsorships, and engage with F1 teams. Persevere and consistently improve for success.",
+      "id": 2
+    },
+    {
+      "title": "Learn Angular",
+      "date": "2024-02-04",
+      "hours": 24,
+      "difficulty": "beginner",
+      "idFormateur": [
+        0,
+        4
+      ],
+      "idCondidat": [
+        1,
+        4
+      ],
+      "image": "https://miro.medium.com/max/3840/1*Im5W4MHRQxAuMnR91DHZAA.png",
+      "program": "https://miro.medium.com/max/3840/1*Im5W4MHRQxAuMnR91DHZAA.png",
+      "tags": [
+        "Angular",
+        "frontend devloper",
+        "MEAN Stack"
+      ],
+      "categories": [
+        "MEAN Stack"
+      ],
+      "description": "Learn Angular, a powerful JavaScript framework, in this hands-on training. Master core concepts, build responsive interfaces with TypeScript, and elevate your web development skills.",
+      "id": 3
+    },
+    {
+      "title": "Halfing bitcoin",
+      "date": "2024-01-18",
+      "hours": 9,
+      "difficulty": "advanced",
+      "idFormateur": [
+        0,
+        5
+      ],
+      "idCondidat": [
+        1
+      ],
+      "image": "https://baxiamarkets.com/wp-content/uploads/2021/09/bitcoin-halving-diagram.png",
+      "program": "https://baxiamarkets.com/wp-content/uploads/2021/09/bitcoin-halving-diagram.png",
+      "tags": [
+        "bitcoin",
+        " crypto",
+        " investing"
+      ],
+      "categories": [
+        "investing",
+        " crypto"
+      ],
+      "description": "Master the art of halving Bitcoin in this concise training. Explore the intricacies of cryptocurrency, understand the halving process, and navigate the impact on markets. Gain essential insights for strategic investing and trading.",
+      "id": 4
+    },
+    {
+      "title": "Lewis Hamilton and the Humanity of Black Athletes",
+      "date": "2024-01-28",
+      "hours": 5,
+      "difficulty": "beginner",
+      "idFormateur": [
+        7,
+        6
+      ],
+      "idCondidat": [],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bj29N-Po2hf1vdb-_pnMLw.jpeg",
+      "program": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bj29N-Po2hf1vdb-_pnMLw.jpeg",
+      "tags": [
+        "formula 1",
+        "racism"
+      ],
+      "categories": [
+        "formula 1"
+      ],
+      "description": "As a Black Woman, I never saw myself in racing culture, but as a teenager I liked to drive fast. My first car was a 1994 Suburu Impreza and it wasn’t much to look at, but I decorated it with blue flame seat covers all the same. On a few occasions, I raced my little Subaru through the backstreets of my very suburban town for nothing more than bragging rights. When other people were’t around, I raced the clock and my curfew home. It was goofy, and childish, and dangerous — but, at the time, it was fun.",
+      "id": 5
+    },
+    {
+      "title": "test",
+      "date": "2024-01-19",
+      "hours": 6,
+      "difficulty": "intermediate",
+      "idFormateur": [
+        4,
+        8
+      ],
+      "idCondidat": [],
+      "image": "https://api.tiktak.space/media/static/media/312472_16b752ea72d049f2b56ee85a2cf3dab1mv2_R968V4S.jpeg",
+      "program": "https://th.bing.com/th/id/R.497c16f76258ef943558a7c53b1ce05e?rik=h6UdZ5MvNNcVQw&pid=ImgRaw&r=0",
+      "tags": [
+        "tag",
+        "azer"
+      ],
+      "categories": [
+        "gg",
+        "yes"
+      ],
+      "description": "hgsdgs hsdg shgd",
+      "id": 6
+    }
+  ],
+  "client": [
+    {
+      "name": "Azer Ben Azzouz",
+      "cin": "14668040",
+      "telephone": "56793609",
+      "email": "benazzouzazer@gmail.com",
+      "role": "candidat",
+      "img": "https://scontent.fnbe1-2.fna.fbcdn.net/v/t39.30808-6/417380225_1433486213901418_3071487749114404499_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=AL561K6EbdEAX8HyRsS&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfBJRJ6g8EXmXzgrpym_0K1oHW1YO2n1fFVh4da2gBD9Ew&oe=659F22B3",
+      "idSavedFormation": [
+        2,
+        3,
+        4,
+        1
+      ],
+      "id": 1
+    },
+    {
+      "name": "Amen hentati",
+      "cin": "14141414",
+      "telephone": "20725325",
+      "email": "amenhentati@gmail.com",
+      "role": "candidat",
+      "img": "https://scontent.fnbe1-2.fna.fbcdn.net/v/t39.30808-1/309390519_473515568067708_6075890219012934923_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5740b7&_nc_ohc=EFPlS546M4cAX_LC_R3&_nc_oc=AQkL5Weba1qeuu-kZfn7wYfRzwCudkXRr60ryBhF7YySW_j0f0IizIux5xvPOwXvufJBQq35BHTQt4ohluPPzP1B&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfAQ8AExfD4EuZqPOPfHK2umSMkOP2-Sxha86ct8QDfj7A&oe=65A0986A",
+      "idSavedFormation": [
+        1
+      ],
+      "id": 2
+    },
+    {
+      "name": "Amine Bjaoui",
+      "cin": "01141414",
+      "telephone": "94077988",
+      "email": "aminebjaoui@gmail.com",
+      "role": "candidat",
+      "img": "https://scontent.fnbe1-2.fna.fbcdn.net/v/t39.30808-1/329369494_6194760200575450_1920213004530880352_n.jpg?stp=dst-jpg_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_ohc=i6nWcAijfAkAX_NisEX&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfBq6wcYd_pc8W8qzIjAvxnmS20LBdEz7l6BUESTaClpfQ&oe=65A0223B",
+      "idSavedFormation": [],
+      "id": 3
+    },
+    {
+      "name": "Mehdi Mtir",
+      "cin": "01114415",
+      "telephone": "55445544",
+      "email": "mehdi.mtir@gmail.com",
+      "role": "formateur",
+      "img": "https://scontent.fnbe1-2.fna.fbcdn.net/v/t1.6435-9/31946263_1718772834866823_6622877323194531840_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=be3454&_nc_ohc=oT5D6-ibzWoAX8D13cv&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfAu4dnt0JrYtvQZVWbWGyTiONzEoSe6AykDSuehYxzFvg&oe=65C23302",
+      "idSavedFormation": [
+        3
+      ],
+      "id": 4
+    },
+    {
+      "name": "Elon musk",
+      "cin": "01586987",
+      "telephone": "56893584",
+      "email": "elon.musk@gmail.com",
+      "role": "formateur",
+      "img": "https://th.bing.com/th/id/OIP.2VdGNxqOuQFUUaOT6VO_PwHaFj?rs=1&pid=ImgDetMain",
+      "idSavedFormation": [],
+      "id": 5
+    },
+    {
+      "name": "lewis hamilton",
+      "cin": "44444444",
+      "telephone": "44444444",
+      "email": "lewis.hamilton@gmail.com",
+      "role": "formateur",
+      "img": "https://th.bing.com/th/id/R.8dc180479a6e825eb96899094dc0f539?rik=GQjg6RlGOCdHsQ&pid=ImgRaw&r=0",
+      "idSavedFormation": [],
+      "id": 6
+    },
+    {
+      "name": "sebastian vettel",
+      "cin": "55555555",
+      "telephone": "55555555",
+      "email": "sebastian.vettel@gmail.com",
+      "role": "formateur",
+      "img": "https://th.bing.com/th/id/OIP.0nEYrKPHLxSMeFu3Pxpz9QHaHa?rs=1&pid=ImgDetMain",
+      "idSavedFormation": [],
+      "id": 7
+    },
+    {
+      "name": "test",
+      "cin": "02025256",
+      "telephone": "56565656",
+      "email": "test@gmail.com",
+      "role": "formateur",
+      "img": "https://bing.com/th?id=OLC.lzCinvtnzquWrg480x360&w=120&h=120&c=8",
+      "idSavedFormation": [],
+      "id": 8
+    }
+  ]
+}

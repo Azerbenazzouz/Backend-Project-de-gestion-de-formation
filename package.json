@@ -1,0 +1,18 @@
+{
+  "name": "serverrr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db.json -m ./node_modules/json-server-auth",
+    "build": "json-server db.json -m ./node_modules/json-server-auth"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}
